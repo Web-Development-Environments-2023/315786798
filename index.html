@@ -78,10 +78,10 @@
                 <br>
                 <br>
                     <h1>Photos</h1>
-                    <img src="https://images.uncyclomedia.co/uncyclopedia/en/thumb/2/2f/Marty_2.jpg/300px-Marty_2.jpg" alt="maze-project-image" width="600" height="400" style="max-width:100%;height:auto;"></img>
-                    <img src="https://vistapointe.net/images/dave-mustaine-wallpaper-10.jpg" alt="maze-project-image" width="600" height="400" style="max-width:100%;height:auto;"></img>
-                    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mustaine-CzechMar2008.jpg/300px-Mustaine-CzechMar2008.jpg" alt="maze-project-image" width="600" height="400" style="max-width:100%;height:auto;"></img>
-                    <img src="https://vistapointe.net/images/dave-mustaine-7.jpg" alt="maze-project-image" width="600" height="400" style="max-width:100%;height:auto;"></img>
+                    <img src="https://images.uncyclomedia.co/uncyclopedia/en/thumb/2/2f/Marty_2.jpg/300px-Marty_2.jpg" alt="picture" width="600" height="400" style="max-width:100%;height:auto;"></img>
+                    <img src="https://vistapointe.net/images/dave-mustaine-wallpaper-10.jpg" alt="picture" width="600" height="400" style="max-width:100%;height:auto;"></img>
+                    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mustaine-CzechMar2008.jpg/300px-Mustaine-CzechMar2008.jpg" alt=picture" width="600" height="400" style="max-width:100%;height:auto;"></img>
+                    <img src="https://vistapointe.net/images/dave-mustaine-7.jpg" alt="picture" width="600" height="400" style="max-width:100%;height:auto;"></img>
 
                 </p>
                 <br>
@@ -131,16 +131,15 @@
                   </section>
               
                   <section id="qrcoder" class="section">
-                </p>
                 <br>
-                <br>
+                <br>           
                 <br>
                 <br>
                 <br>
                 <br>
                     <h1>QR Code</h1>
-                </p>
                 <br>
+                <img src="/img/qrcode.png" alt="qrcode" width="250" height="250" style="max-width:100%;height:auto;"></img>
                 <br>
                 <br>
                 <br>
@@ -161,6 +160,21 @@
                 <br>
                 <br>
                 <br>
+                <p>Difference #1 - Interaction:<br>
+                    In Web 1.0 , websites were read only.<br>
+                    In Web 2.0, writing was allowed too.<br>
+                    Use case : Client wants to contribute and comment on a blog post.</p>
+                    
+                    <p>Difference #2 - Search engines:<br>
+                    In Web 1.0 , fast search, macro content, inaccurate results.<br>
+                    In Web 2.0, higher accuracy by the usage of tagging, but manual and covers little percentage of the web.<br>
+                    In Web 3.0, tagging is automatic.<br>
+                    Use case : Client wants search for his local news website, he is more likely to find it, if it exists, in Web 3.0 than in Web 1.0.</p>
+                    
+                    <p>Difference #3 - Dynamic websites:<br>
+                    In Web 1.0 , static webpages.<br>
+                    In Web 3.0, dynamic webpages<br>
+                    Use case : Client wants a cool transition effect when sliding down his website, would not be possible in Web 1.0.</p>
                 <br>
                 <br>
                 <br>
@@ -175,7 +189,30 @@
                 <br>
                 <br>
                     <h1>Contact me</h1>
-                </p>
+                    <div class="email-form">
+                        <form>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" ><br>
+                      
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" ><br>
+                      
+                            <label for="email-content"></label><br>
+                            <br><br>
+                            <div id="drawer" class="emoji-drawer hidden">                            
+                            <div class="emoji" onclick="addEmoji(this.innerHTML)">😀</div>
+                            <div class="emoji" onclick="addEmoji(this.innerHTML)">😃</div>
+                            <div class="emoji" onclick="addEmoji(this.innerHTML)">😄</div>
+                            <div class="emoji" onclick="addEmoji(this.innerHTML)">😁</div>
+                            <div class="emoji" onclick="addEmoji(this.innerHTML)">😆</div>
+                            </div>
+                            <textarea id="email-content" name="email-content" ></textarea><br>
+                      
+                            <button type="button" onclick="sendEmail()">Submit</button>
+                        
+                          </form>
+                    </div>
+                    
                 <br>
                 <br>
                 <br>

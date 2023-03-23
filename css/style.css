@@ -13,6 +13,11 @@ body{
 	background-attachment: fixed;
 }
 
+label{
+  font-family: var(--font-titles);
+  color:var(--text-darktheme-color);
+}
+
 .content h1{
   font-family: var(--font-titles);
   color:var(--text-darktheme-color);
