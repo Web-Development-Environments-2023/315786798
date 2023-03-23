@@ -1,0 +1,55 @@
+:root{
+    --background-darktheme-color: #121212;
+    --text-darktheme-color: white;
+    --font-titles: Merriweather, serif;
+    --font-paras: "Open Sans", sans-serif;
+    --font-nav : Roboto, sans-serif;
+}
+
+body{  
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://c.files.bbci.co.uk/1FF6/production/_107428180_115ce24f-d1f9-435b-9a51-fd494c01ec4c.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.content h1{
+  font-family: var(--font-titles);
+  color:var(--text-darktheme-color);
+  border-bottom-style: groove;
+}
+.content p{
+  font-family: var(--font-paras);
+  color:var(--text-darktheme-color);
+}
+
+.navList{
+  border-bottom-style: groove;
+  list-style: none;
+  backdrop-filter: blur(1rem);
+  background: hsl(0, 0%, 100% , 0.1);
+}
+.navList a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: var(--font-nav);
+}
+
+.navList a:link {
+  color: white;
+}
+
+.navList a:visited {
+  color: white;
+}
+
+.navList a:hover {
+  opacity: 0.6;
+}
+
+.navList a:active {
+  opacity: 0.4;
+}
+
+
+
